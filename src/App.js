@@ -54,7 +54,7 @@ const App = () => {
                   executing.active === 'long' ? 'active-label' : undefined
                 }
                 _callback={() => setCurrentTimer('long')}
-              />      <small>Be productive the right way.</small>
+              />    
             </li>
           </ul>
           <Button title="Settings" _callback={SettingsBtn} />
